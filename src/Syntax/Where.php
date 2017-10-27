@@ -635,4 +635,12 @@ class Where
     {
         return $this->isNull;
     }
+
+    /**
+     * @return QueryInterface
+     */
+    public function getQuery()
+    {
+        return $this->query;
+    }
 }
